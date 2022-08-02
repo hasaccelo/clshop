@@ -1,0 +1,168 @@
+/*Etape 2: style css du blog*/
+*				{
+					border: 0;
+					/*margin: 0;
+					padding: 0;*/
+					box-sizing: border-box;
+					list-style: none;
+					text-decoration: none;
+					font-family:'opens sans', sans-serif;
+}
+#menu-lateral
+				{
+					background-color: rgb(5, 68, 104);
+					width: 250px;
+					height: 100%;
+					position: fixed;
+					top: 0;
+					left: 0;
+					padding: 20px 0px;
+				}
+#menu-lateral #profil img
+				{
+					width: 150px;
+					height: 150px;
+					border-radius:50%; /*50%; bordure arrondir*/
+					border: 10px solid rgb(32, 44, 69); 
+					margin: auto;
+					border: ;
+				}
+#profil			
+				{
+					text-align: center;
+					color: white;
+				}
+#profil h3
+				{
+					font-size: 1.5em;
+				}
+#profil p
+				{
+					margin-top: -20px;
+					font-style: italic;
+					font-weight: bold;
+				}
+#menu-lateral ul li a
+				{
+					color: #FFF;
+					display: block;
+					/*padding-bottom: 20px;*/
+					border-bottom: 1px solid darkblue;
+					font-size: 18px;
+					padding: 10px 20px;
+
+				}
+#menu-lateral ul li a:hover, .active
+				{
+					background-color: #FFF;
+					color: darkblue;
+
+				}
+#menu-lateral ul
+				{
+					margin-left: -40px;
+				}
+.active			
+				{
+					color: darkblue !important;
+				}
+.section
+				{
+					width: calc(100% - 250px);
+					margin-left: 250px;
+				}
+.section .menu h2
+				{
+					color: white;
+					padding-top:25px;
+					margin-left: 25px;
+					font-size: 1em;
+				}
+.section .menu h2:hover
+				{
+					color: lightblue;
+				}
+.section .top_bar
+				{
+					height: 55px;
+					background-color: rgb(32, 44, 69);
+					margin-left: -8px;
+					margin-right: -8px;
+					margin-top:-20px;
+				}
+.section .banner {
+	text-align: center;
+	padding: 50px 50px 250px 50px;
+	font-size: 2em;
+	background-color: rgb(7, 105, 187);
+	height: 199px;
+}
+
+.section .titre {
+	color: #FFF;
+}
+
+.section .trait {
+	height: 10px;
+	background-color: rgb(255, 255, 224);
+	width: 50%;
+	margin: 20px auto;
+}
+
+.section .btn button {
+	font-size: 1em;
+	color: blue;
+}
+.section .btn button:hover {
+	color: #fff;
+	background-color: darkblue;
+}
+.section .contenu {
+	height: 250px;
+	margin-top: 10px;
+	padding: 0 30px;
+	display: flex;
+}
+
+.section .contenu img {
+	width: 260px;
+	height: 160px;
+}
+
+.section .contenu .article {
+	margin: 0 20px;
+}
+.section .contact {
+	background-color: rgb(7, 105, 187);
+	height: 200px;
+	padding: 20px;
+	text-align: center;
+	color: #FFF;
+}
+
+.section .contact h2 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+.section .contact p {
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+.section .contact form input {
+	font-size: 1.5em;
+}
+
+.section .contact form button {
+	font-size: 1.5em;
+	margin-left: 10px;
+} 
+
+/* Style du pied page */
+.section .footer {
+	background-color: rgb(32, 44, 69);
+	height: 50px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+}
